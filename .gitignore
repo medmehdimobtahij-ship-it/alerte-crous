@@ -1,0 +1,6 @@
+# Données personnelles : ne jamais publier
+session.json
+diagnostic.json
+pieces/
+*.pdf
+__pycache__/

@@ -1,0 +1,41 @@
+# ===== Réglages de l'alerte CROUS =====
+# Départements surveillés (75, 92, 93, 94), séparés par des virgules
+DEPARTEMENTS=75,92
+
+# Codes postaux mis en avant (⭐) : 92170 = Vanves, 92240 = Malakoff
+CODES_POSTAUX_PRIORITAIRES=92170,92240
+
+# Optionnel : villes précises à la place des départements (ex. VILLES=Lyon, Lille) + rayon en km
+VILLES=
+RAYON_KM=10
+
+# Loyer maximum en euros (0 = pas de limite)
+LOYER_MAX=0
+
+# Surface minimum en m² (0 = pas de limite)
+SURFACE_MIN=0
+
+# Fréquence de vérification en secondes (minimum 60, pour ne pas surcharger le site)
+INTERVALLE_SECONDES=120
+
+# ===== Réponses au formulaire de demande de réservation =====
+# Niveau d'études : 4 = Master 1 (Bac+4), 5 = Master 2 (Bac+5)
+NIVEAU_ETUDES=5
+# Motif : apprenticeship (alternance), internship (stage), neither (aucun)
+MOTIF=apprenticeship
+# Déjà logé au CROUS : non / oui
+DEJA_LOGE=non
+# Impôts payés en France : oui / non
+IMPOTS_FRANCE=oui
+# Message libre joint à la demande (optionnel)
+COMMENTAIRE=Étudiant en master en alternance, je recherche un logement proche de mon lieu de formation et d'entreprise.
+
+# Envoi automatique des demandes : PRIORITAIRES (Vanves/Malakoff seulement), TOUS ou AUCUN
+ENVOI_AUTO=PRIORITAIRES
+
+# Optionnel : alertes WhatsApp via CallMeBot (numéro au format +33..., clé reçue de CallMeBot)
+WHATSAPP_NUMERO=
+CALLMEBOT_CLE=
+
+# Optionnel : lien webhook d'un salon Discord à toi pour recevoir les alertes sur ton téléphone
+DISCORD_WEBHOOK=
